@@ -1,0 +1,372 @@
+body
+{
+background-color: #fff;
+}
+
+p
+{
+color: #757575;
+font-weight: 500;
+font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6
+{
+color: #010101;
+}
+
+a
+{
+-webkit-transition: .3s all ease;
+-o-transition: .3s all ease;
+transition: .3s all ease;
+}
+
+a:hover
+{
+text-decoration: none !important;
+}
+
+.content
+{
+padding: 7rem 0;
+}
+
+h2
+{
+font-size: 20px;
+}
+
+.half, .half .container > .row
+{
+height: 100vh;
+min-height: 700px;
+}
+
+@media (max-width: 991.98px)
+{
+.half .bg
+{
+height: 200px;
+}
+
+.background_image
+{
+display: none;
+}
+}
+
+.half .contents
+{
+background: #f6f7fc;
+}
+
+.half .contents, .half .bg
+{
+width: 50%;
+}
+
+@media (max-width: 1199.98px)
+{
+.half .contents, .half .bg
+{
+width: 100%;
+}
+}
+
+.installation_page
+{
+}
+
+.installation_page > .wrapper
+{
+max-height: 100vh;
+min-height: 100vh;
+overflow: hidden;
+}
+
+.installation_page > .wrapper > .installer_box
+{
+padding-top: 50px;
+overflow-y: auto;
+scroll-behavior: smooth;
+}
+
+.installation_page > .wrapper > .installer_box .box_contents
+{
+padding-bottom: 100px;
+}
+
+.box_contents > h3
+{
+color: #212121;
+font-size: 21px;
+text-align: CENTER;
+margin-bottom: 14px;
+font-weight: 600;
+}
+
+.system_requirements > .proceed > span
+{
+display: block;
+padding: 15px;
+background: #32ba7c;
+color: white;
+border-radius: 5px;
+font-size: 17px;
+cursor: pointer;
+}
+
+.background_image
+{
+overflow: hidden;
+}
+
+.background_image > div
+{
+}
+
+.background_image > div > img
+{
+max-height: 100vh;
+overflow: hidden;
+object-fit: cover;
+object-position: center;
+width: 100%;
+min-height: 100vh;
+}
+
+.half .contents .form-control, .half .bg .form-control
+{
+height: 58px;
+background: #f6f7fc;
+color: #888888;
+font-size: 15px;
+}
+
+.half .contents .form-control:active, .half .contents .form-control:focus, .half .bg .form-control:active, .half .bg .form-control:focus
+{
+outline: none;
+-webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+.installation_form
+{
+background: white;
+padding: 20px;
+border: 1px solid #cfd1d8;
+border-radius: 5px;
+}
+
+.installation_form h5
+{
+font-size: 16px;
+margin-bottom: 0px;
+color: #4caf50;
+margin-top: 40px;
+font-weight: 600;
+}
+
+.installation_form p
+{
+font-size: 15px;
+margin-top: 5px;
+}
+
+.installation_form label
+{
+position: relative;
+bottom: -12px;
+padding: 2px 10px;
+background: #f6f7fc;
+margin-left: 10px;
+font-size: 12px;
+text-transform: uppercase;
+font-weight: 600;
+color: #878889;
+margin-bottom: 0px!important;
+border-radius: 3px;
+border: 1px solid #cfd1d8;
+}
+
+.installation_form input.form-control
+{
+border: none;
+-webkit-box-shadow: none;
+box-shadow: none;
+border-radius: 4px;
+border: 1px solid #cfd1d8;
+padding-top: 15px;
+}
+
+.installation_form > form > .install
+{
+margin-top: 30px;
+}
+
+.installation_form > form > .install > span
+{
+cursor: pointer;
+text-align: center;
+display: block;
+display: block;
+padding: 15px;
+background: #32ba7c;
+color: white;
+border-radius: 5px;
+font-size: 17px;
+cursor: pointer;
+position: relative;
+}
+
+.installation_form.processing > form > .install > span:before
+{
+background-image: repeating-linear-gradient(-45deg, transparent, transparent 1rem, #ffffff78 1rem, #ffffff78 2rem);
+background-size: 200% 200%;
+animation: barberpole 6s linear infinite;
+content: "";
+position: absolute;
+width: 100%;
+height: 100%;
+left: 0px;
+top: 0px;
+}
+
+@keyframes barberpole
+{
+100%
+{
+background-position: 100% 100%;
+}
+}
+
+.half .bg
+{
+background-size: cover;
+background-position: center;
+}
+
+.half a
+{
+color: #888;
+text-decoration: underline;
+}
+
+.half .btn
+{
+height: 54px;
+padding-left: 30px;
+padding-right: 30px;
+}
+
+.half .forgot-pass
+{
+position: relative;
+top: 2px;
+font-size: 14px;
+}
+
+.control
+{
+display: block;
+position: relative;
+padding-left: 30px;
+margin-bottom: 15px;
+cursor: pointer;
+font-size: 14px;
+}
+
+.control .caption
+{
+position: relative;
+top: .2rem;
+color: #888;
+}
+
+.control input
+{
+position: absolute;
+z-index: -1;
+opacity: 0;
+}
+
+.control__indicator
+{
+position: absolute;
+top: 2px;
+left: 0;
+height: 20px;
+width: 20px;
+background: #e6e6e6;
+border-radius: 4px;
+}
+
+.control--radio .control__indicator
+{
+border-radius: 50%;
+}
+
+.control:hover input ~ .control__indicator,
+.control input:focus ~ .control__indicator
+{
+background: #ccc;
+}
+
+.control input:checked ~ .control__indicator
+{
+background: #fb771a;
+}
+
+.control:hover input:not([disabled]):checked ~ .control__indicator,
+.control input:checked:focus ~ .control__indicator
+{
+background: #fb8633;
+}
+
+.control input:disabled ~ .control__indicator
+{
+background: #e6e6e6;
+opacity: 0.9;
+pointer-events: none;
+}
+
+.control__indicator:after
+{
+font-family: 'icomoon';
+content: '\e5ca';
+position: absolute;
+display: none;
+font-size: 16px;
+-webkit-transition: .3s all ease;
+-o-transition: .3s all ease;
+transition: .3s all ease;
+}
+
+.control input:checked ~ .control__indicator:after
+{
+display: block;
+color: #fff;
+}
+
+.control--checkbox .control__indicator:after
+{
+top: 50%;
+left: 50%;
+margin-top: -1px;
+-webkit-transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+}
+
+.control--checkbox input:disabled ~ .control__indicator:after
+{
+border-color: #7b7b7b;
+}
+
+.control--checkbox input:disabled:checked ~ .control__indicator
+{
+background-color: #7e0cf5;
+opacity: .2;
+}

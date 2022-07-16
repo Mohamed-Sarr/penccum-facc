@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://localhost/grupo/</loc>
+<lastmod>2022-06-29T12:03:09+05:30</lastmod>
+<changefreq>daily</changefreq>
+</url>
+
+<url>
+<loc>http://localhost/grupo/about/</loc>
+<lastmod>2022-06-29T12:03:09+05:30</lastmod>
+<changefreq>daily</changefreq>
+</url>
+
+<url>
+<loc>http://localhost/grupo/terms/</loc>
+<lastmod>2022-06-29T12:03:09+05:30</lastmod>
+<changefreq>daily</changefreq>
+</url>
+
+<url>
+<loc>http://localhost/grupo/privacy/</loc>
+<lastmod>2022-06-29T12:03:09+05:30</lastmod>
+<changefreq>daily</changefreq>
+</url>
+
+</urlset>

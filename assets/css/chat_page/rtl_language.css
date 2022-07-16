@@ -1,0 +1,658 @@
+.rtl_language .main .chat_page_container.show_navigation
+{
+padding-left: 0px;
+padding-right: 200px;
+}
+
+.rtl_language .main .side_navigation
+{
+margin-left: 0px;
+margin-right: -200px;
+border-right-width: 0px;
+border-left: 1px solid var(--side-navigation-primary-border-color);
+}
+
+.rtl_language .main .side_navigation .menu_items
+{
+text-align: right;
+}
+
+.rtl_language .main .side_navigation .menu_items > li > .menu_item > .title
+{
+margin-right: 5px;
+margin-left: 0px;
+}
+
+.rtl_language .main .aside > .site_records > .records > .list > li > div > .center > .title
+{
+margin-right: 0px;
+margin-left: 10px;
+}
+
+.rtl_language .main .aside > .site_records > .records > .list > li > div > .left
+{
+margin-right: 0px;
+margin-left: 13px;
+}
+
+.rtl_language .main .aside > .site_records > .records > .list > li > div > .center
+{
+}
+
+.rtl_language .main .aside > .site_records > .records > .list > li > div > .right
+{
+margin-left: revert;
+padding-left: 0px;
+margin-right: auto;
+padding-right: 10px;
+}
+
+.rtl_language .main .side_navigation .menu_items > li.has_child > .menu_item > .title:after
+{
+margin-left: 0px;
+margin-right: 3px;
+}
+
+.rtl_language .main .aside > .site_records > .records > .list > li > div > .right > .options > span
+{
+right: auto;
+left: 0px;
+}
+
+.rtl_language .main .go_back_icon > span > i:before
+{
+content: "\f285";
+}
+
+.rtl_language .main .chatbox > .header > .icons > span > .total_unread_notifications
+{
+left: 0px;
+margin-left: 33px;
+right: auto;
+margin-right: 0px;
+}
+
+.rtl_language .main .aside > .head > .menu .total_unread_notifications
+{
+margin-left: 0px;
+margin-right: -17px;
+}
+
+.rtl_language .main .aside > .site_records > .current_record > .options > div.right > .dropdown_list
+{
+left: 0px;
+right: auto;
+}
+
+.rtl_language .main .aside > .site_records > .current_record > .options > div > span
+{
+margin-left: 0px;
+margin-right: 15px;
+}
+
+.rtl_language .main .aside > .site_records > .current_record > .title
+{
+margin-left: auto;
+margin-right: revert;
+}
+
+.rtl_language .main .aside > .site_records > .current_record .sort > .dropdown_list > ul > li.sort_desc:after
+{
+margin-left: 0px;
+margin-right: 4px;
+}
+
+.rtl_language .main .middle .search_messages > div > .search > div > i
+{
+right: -1px;
+padding-right: 29px;
+left: auto;
+}
+
+.rtl_language .main .middle .search_messages > div > .search > div > input
+{
+padding-left: 0px;
+padding-right: 35px;
+}
+
+.rtl_language .main .aside > .site_records > .current_record .sort > .dropdown_list > ul > li.sort_asc:after
+{
+margin-left: 0px;
+margin-right: 4px;
+}
+
+.rtl_language .main .side_navigation > .top > .icon
+{
+margin-left: 0px;
+margin-right: 10px;
+}
+
+.rtl_language .main .middle
+{
+border-left-width: 0px;
+border-right: 1px solid var(--chat-window-primary-border-color);
+}
+
+.rtl_language .main .aside > .site_records > .tools
+{
+left: 0px;
+right: auto;
+margin-right: 0px;
+margin-left: 30px;
+}
+
+.rtl_language .main .side_navigation .child_menu
+{
+text-align: revert;
+}
+
+.rtl_language .main .aside > .site_records > .records > .list > li > div > .selector
+{
+margin-left: 8px;
+margin-right: 0px;
+}
+
+.rtl_language .main .info_panel > .controls > div > .options > .text:after
+{
+margin-right: 5px;
+margin-left: 0px;
+}
+
+.rtl_language .main .chatbox .selector
+{
+margin-left: 10px;
+margin-right: 0px;
+}
+
+.rtl_language .main .chatbox > .contents > .chat_messages > ul > li > div
+{
+justify-content: right;
+}
+
+.rtl_language .main .chatbox > .contents > .chat_messages > ul > li > div > .right > .header > .text_badge
+{
+margin-left: 0px;
+margin-right: 5px;
+}
+
+.rtl_language .main .chatbox > .contents > .chat_messages > ul > li > div > .right > .header > .tools > .timestamp
+{
+margin-left: 0px;
+margin-right: 10px;
+}
+
+.rtl_language .main .chatbox > .contents > .chat_messages > ul > li > div > .right > .header > .tools > div
+{
+margin-right: 4px;
+margin-left: 0px;
+}
+
+.rtl_language .main .info_panel
+{
+border-left-width: 0px;
+border-right: 1px solid var(--info-panel-primary-border-color);
+}
+
+.rtl_language .main .aside > .site_records > .search > i
+{
+right: 0px;
+left: auto;
+padding-left: 0px;
+padding-right: 20px;
+}
+
+.rtl_language .main .aside > .site_records > .search > input
+{
+padding-left: 5px;
+padding-right: 34px;
+}
+
+.rtl_language .main .chatbox > .contents > .chat_messages > ul > li.align_right > div
+{
+justify-content: left;
+}
+
+.rtl_language .main .chatbox > .contents > .chat_messages.multi_selection > ul > li.align_right > div > .left > .selector
+{
+margin-left: 0px;
+margin-right: 10px;
+}
+
+.rtl_language .main .chatbox > .contents > .chat_messages > ul > li.align_right > div > .right > .content
+{
+text-align: left;
+}
+
+.rtl_language .main .chatbox > .contents > .chat_messages > ul > li.align_right > div > .right > .files > div > ul
+{
+justify-content: left;
+}
+
+.rtl_language .message_editor .note-toolbar
+{
+text-align: right;
+}
+
+.rtl_language .main .chatbox > .footer > .editor > div > .attached_gif
+{
+left: 0px;
+right: auto;
+margin-left: 15px;
+margin-right: 0px;
+}
+
+.rtl_language .main .chatbox > .footer > .editor .send_message_button
+{
+padding-right: 0px;
+padding-left: 10px;
+}
+
+.rtl_language .main .chatbox > .contents > .chat_messages > ul > li.align_right > div > .left
+{
+margin-right: 5px;
+margin-left: 0px;
+}
+
+.rtl_language .main .chatbox > .contents > .chat_messages > ul > li > div > .left
+{
+margin-right: 0px;
+margin-left: 5px;
+}
+
+.rtl_language .main .chatbox > .header > .heading
+{
+margin-right: revert;
+margin-left: auto;
+text-align: right;
+}
+
+.rtl_language .main .chatbox > .header > .image
+{
+margin-right: 0px;
+margin-left: 8px;
+}
+
+.rtl_language .main .chatbox > .header > .switch_user
+{
+margin-left: 0px;
+margin-right: 15px;
+}
+
+.rtl_language .main .chatbox > .header > .switch_user > div
+{
+margin-right: 0px;
+margin-left: 10px;
+left: 0px;
+right: auto;
+}
+
+.rtl_language .main .chatbox > .header > .switch_user > div > .search > div > i
+{
+padding-left: 0px;
+padding-right: 29px;
+left: auto;
+right: -1px;
+}
+
+.rtl_language .main .chatbox > .header > .switch_user > div > .search > div > input
+{
+padding-left: 0px;
+padding-right: 32px;
+}
+
+.rtl_language .main .formbox > .fields > div > form > .formdata > .field
+{
+text-align: revert;
+}
+
+.rtl_language .main .formbox > .fields > div > form > .formdata > .field > select
+{
+background-position-y: 50%;
+background-position-x: 6px;
+}
+
+.rtl_language .main .formbox > .fields > div > form > .formdata > .field > .checkbox > label > .checkbox
+{
+margin-left: 8px;
+margin-right: 0px;
+}
+
+.rtl_language .main .formbox > .fields > div > form > .formdata > .field > label > .required
+{
+margin-left: 0px;
+margin-right: 4px;
+}
+
+.rtl_language .main .formbox > .bottom > span.submit
+{
+margin-left: 0px;
+margin-right: 15px;
+}
+
+.rtl_language .main .formbox
+{
+border-left-width: 0px;
+border-right: 1px solid var(--form-primary-border-color);
+}
+
+.rtl_language .main .aside > .head > .icons
+{
+margin-left: revert;
+padding-right: 10px;
+padding-left: 0px;
+}
+
+.rtl_language .main .aside > .head > .logo
+{
+margin-right: auto;
+margin-left: auto;
+}
+
+.rtl_language .main .aside > .head > .menu > i
+{
+margin-right: 0px;
+margin-left: 10px;
+}
+
+.rtl_language .main .info_panel > .controls > div > .options
+{
+margin-right: 0px;
+order: 1;
+}
+
+.rtl_language .main .info_panel > .controls > div > span
+{
+order: 2;
+}
+
+.rtl_language .main .chatbox > .header > .switch_user > div > .list > ul
+{
+text-align: right;
+}
+
+.rtl_language .main .chatbox > .header > .switch_user > div > .list > ul > li > .title
+{
+margin-right: 5px;
+margin-left: 0px;
+}
+
+.rtl_language .main .chatbox > .contents > .chat_messages > ul > li.system_message > div
+{
+justify-content: center;
+}
+
+.rtl_language .main .chatbox > .contents > .chat_messages .message_reactions > .reactions > ul > li > span.total_reactions
+{
+margin-left: 0px;
+margin-right: 3px;
+}
+
+.rtl_language .main .chatbox > .contents > .chat_messages > ul > li.align_right > div > .right .message_reactions
+{
+text-align: left;
+}
+
+.rtl_language .main .chatbox > .contents > .chat_messages > ul > li.align_right > div > .right > .header > .tools > .timestamp
+{
+margin-left: 0px;
+margin-right: 10px;
+}
+
+.rtl_language  .main .chatbox > .contents > .chat_messages > ul > li.align_right > div > .right > .header > .tools > .options
+{
+margin-right: 4px;
+margin-left: 0px;
+}
+
+.rtl_language .main .chatbox > .contents > .chat_messages > ul > li > div > .right > .files > div > ul > li > .file.others > span > .icon
+{
+margin-left: 7px;
+margin-right: 0px;
+}
+
+.rtl_language .main .chatbox > .contents > .chat_messages > ul > li > div > .right > .files > div > ul > li > .file .file_download
+{
+margin-left: 0px;
+margin-right: 8px;
+}
+
+.rtl_language .main .chatbox > .contents > .chat_messages > ul > li > div > .right > .files > div > ul > li > .file.others > span > .file_details
+{
+text-align: right;
+}
+
+.rtl_language .main .chatbox > .contents > .chat_messages > ul > li > div > .right > .files > div > ul > li > .file.others
+{
+margin-left: 10px;
+margin-right: 0px;
+}
+
+.rtl_language .main .chatbox > .contents > .chat_messages > ul > li.align_right > div > .right > .header
+{
+justify-content: left;
+}
+
+.rtl_language .main .chatbox > .footer .attachments > div > .files > ul > li > .remove_file
+{
+margin-left: 0px;
+margin-right: -24px;
+}
+
+.rtl_language .main .chatbox > .footer .attachments > div > .files > ul > li > .file
+{
+padding-left: 27px;
+padding-right: 7px;
+}
+
+.rtl_language .main .chatbox > .footer .attachments > div > .files > ul > li > .file > .file_preview
+{
+margin-right: 0px;
+margin-left: 7px;
+}
+
+.rtl_language .preloader > div > div > .loader
+{
+direction: ltr;
+}
+
+.rtl_language .main .chatbox > .contents > .chat_messages > ul > li > div > .right > .files > div > ul > li > .file.audio_preview
+{
+direction: ltr;
+margin-left: 5px;
+margin-right: 0px;
+}
+
+.rtl_language .main .formbox > .fields > div > form > .formdata > .filebrowse > .selector > span > i
+{
+margin-left: revert;
+margin-right: auto;
+}
+
+.rtl_language .main .confirm_box > .content > .btn.cancel
+{
+margin-left: 17px;
+margin-right: 0px;
+}
+
+.rtl_language .main .side_navigation > .bottom > .user_info > .right > .icon > i:after
+{
+content: "\f284";
+}
+
+.rtl_language .main .side_navigation > .bottom.show > .user_info > .right > .icon > i:after
+{
+content: "\f285";
+}
+
+.rtl_language .main .confirm_box > .content > .text
+{
+margin-right: 0px;
+margin-left: 12px;
+}
+
+.rtl_language .main .confirm_box > .content
+{
+text-align: right;
+}
+
+.rtl_language .main .side_navigation > .bottom .child_menu
+{
+left: auto;
+right: 0px;
+margin-right: 200px;
+margin-left: 0px;
+border-right-width: 0px;
+border-left: 1px solid var(--side-navigation-primary-border-color);
+}
+
+.rtl_language .main .side_navigation > .bottom > .user_info > .right
+{
+margin-right: auto;
+margin-left: revert;
+}
+
+.rtl_language .main .side_navigation > .bottom > .user_info
+{
+text-align: revert;
+}
+
+.rtl_language .main .side_navigation > .bottom > .user_info > .center > .sub_title
+{
+text-align: right;
+}
+
+.rtl_language .main .side_navigation > .bottom > .user_info > .left
+{
+margin-right: 0px;
+margin-left: 7px;
+}
+
+.rtl_language .main .aside > .site_records > .records > .list > li > div > .center > .title > span.text
+{
+margin-right: 0px;
+margin-left: 5px;
+}
+
+.rtl_language .main .chatbox > .contents > .chat_messages > ul > li.align_right > div > .right > .files > div > ul > li > .file.audio_preview
+{
+margin-right: 5px;
+margin-left: 0px;
+}
+
+.rtl_language .main .formbox > .fields > div > form > .formdata > .field > .note-editor
+{
+direction: ltr;
+}
+
+.rtl_language .audio_player_box > .header
+{
+direction: ltr;
+}
+
+.rtl_language .main .chatbox > .footer > .editor .send_message_button > div > span > .icon:before
+{
+content: "\f12c";
+}
+
+.rtl_language .audio_player_box > .heading > div > .title
+{
+margin-right: revert;
+margin-left: auto;
+}
+
+.rtl_language .audio_player_box > .heading > div > .button > span
+{
+padding-right: 10px;
+padding-left: 0px;
+}
+
+.rtl_language .audio_player_box > .playlist > div > ul > li > .image
+{
+margin-left: 12px;
+margin-right: 0px;
+}
+
+.rtl_language .audio_player_box > .playlist > div > ul > li > .info
+{
+margin-right: revert;
+margin-left: auto;
+}
+
+.rtl_language .main .side_navigation .menu_items > li > .menu_item > .unread
+{
+margin-left: revert;
+margin-right: auto;
+}
+
+.rtl_language .main .chatbox > .contents > .chat_messages > ul > li.align_right > div > .right > .header > .tools > div .dropdown_list
+{
+left: 0px;
+right: revert;
+}
+
+.rtl_language .main .chatbox > .contents > .chat_messages > ul > li.align_right > div > .right > .header > .tools
+{
+margin-left: 0px;
+}
+
+.rtl_language .audio_player_box > .header > .info
+{
+direction: rtl;
+}
+
+.rtl_language .audio_player_box > .header > .info > .currently_playing > .subtitle
+{
+direction: ltr;
+}
+
+.rtl_language .main .chatbox > .contents > .chat_messages > ul > li > div > .right .quote > div
+{
+}
+
+.rtl_language .main .chatbox > .contents > .chat_messages > ul > li > div > .right .quote > div > .right
+{
+margin-left: 0px;
+margin-right: 10px;
+}
+
+.rtl_language .main .chatbox > .contents > .chat_messages > ul > li.align_right > div > .right > .header > .read_status
+{
+margin-left: 0px;
+margin-right: 5px;
+}
+
+.rtl_language .main .chatbox > .contents > .chat_messages > ul > li > div > .right > .header > .read_status
+{
+margin-right: 5px;
+margin-left: 0px;
+}
+
+.rtl_language .main .aside > .mini_audio_player > div > .left > .image
+{
+margin-right: 0px;
+margin-left: 12px;
+}
+
+.rtl_language .main .aside > .mini_audio_player > div > .center > .title
+{
+margin-right: 0px;
+margin-left: 10px;
+text-align: right;
+}
+
+.rtl_language .main .aside > .mini_audio_player > div > .right
+{
+margin-left: revert;
+margin-right: auto;
+}
+
+.rtl_language .main .aside > .mini_audio_player > div > .right > .controls
+{
+direction: ltr;
+}
+
+.rtl_language .main .aside > .mini_audio_player > div > .center > .description > span
+{
+direction: ltr;
+text-align: right;
+}

@@ -1,0 +1,11 @@
+Order Deny,Allow
+deny from all
+
+<FilesMatch "(?i)\.(php5|php4|php|php3|php2|phtml|pl|py|jsp|asp|htm|shtml|html|sh|cgi|cache)$">    
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+
+<Files ~ "(?i)\.(jpg|jpeg|png|gif|svg|flv|mp3|jfif|wav|mp4|ogg|pdf|webm|bmp|webp|json|woff|woff2|ttf|eot|js|css|map)$">
+    allow from all
+</Files>

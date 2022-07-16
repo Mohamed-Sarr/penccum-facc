@@ -1,0 +1,253 @@
+@media screen and (max-width:480px)
+{
+    
+.main .chatbox>.contents>.chat_messages>ul>li.system_message>div>.right>.content
+{
+margin-left: 2px;
+text-align: center;
+}
+
+.main .chatbox>.contents>.chat_messages>ul>li.system_message>div>.right
+{
+text-align: center;
+}
+
+.main .chatbox>.contents>.chat_messages>ul>li.system_message>div>.right>.content>div
+{
+text-align: center;
+}
+
+.main .chatbox>.footer>.editor .message_editor .note-btn.attach_from_storage_feature
+{
+}
+
+.main .chatbox > .header > .image > .thumbnail,.main .chatbox > .header > .image > .thumbnail > .image
+{
+width: 40px;
+height: 40px;
+}
+
+.main .chatbox > .header
+{
+max-height: 140px;
+}
+
+.main .chatbox>.footer>.editor .note-editor .note-toolbar>.note-btn-group.note-para > button:last-child
+{
+display: none;
+}
+
+.main .chatbox > .header > .switch_user
+{
+margin-left: 5px;
+}
+
+.main .chatbox > .header > .heading > .title
+{
+max-width: 120px;
+}
+
+.main .chatbox > .header > .icons
+{
+text-align: right;
+}
+
+.main .chatbox > .header > .icons > span, .main .chatbox > .header > .icons > .options > .icon
+{
+text-align: center;
+}
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1330px)
+{
+.main .aside > .mini_audio_player > div > .center
+{
+max-width: 30%;
+}
+}
+
+@media screen and (max-width:770.98px)
+{
+.main .page_column
+{
+display: none;
+transition: 0s;
+}
+
+.main .chatbox > .contents > .chat_messages > ul > li > div > .right > .content > div
+{
+max-width: 75vw;
+}
+
+.main .middle > .video_preview
+{
+max-height: 30%;
+min-height: 30%;
+}
+
+.message_editor .note-toolbar
+{
+text-align: center;
+}
+
+.main .chatbox > .contents > .chat_messages > ul > li > div > .right > .files > div > ul > li > .file.audio_preview > div > .icon
+{
+display: none;
+}
+
+.main .go_back_icon
+{
+display: block;
+}
+
+.main .page_column.visible
+{
+display: flex;
+z-index: 3;
+}
+
+.main .page_column.previous
+{
+display: flex;
+position: absolute;
+left: 0px;
+top: 0px;
+z-index: 1;
+}
+
+.main .navopen .page_column.previous
+{
+padding-left: 60px;
+}
+
+.main .navopen .chatbox .file.audio_preview > div > .audio_controls > div > div > div > .duration,
+.main .navopen .chatbox .file.audio_preview > div > .audio_controls > div > div > div > .current_timestamp
+{
+display: none;
+}
+
+.main .chatbox>.footer>.editor .message_editor
+{
+padding-bottom: 20px;
+}
+
+.main .chatbox>.footer>.editor>div
+{
+padding: 0px 5px;
+}
+
+.main .chatbox>.footer>.editor .send_message_button > div > span
+{
+border-radius: 5px;
+width: 50px;
+height: 50px;
+}
+
+.main .chatbox>.footer>.editor .send_message_button > div
+{
+margin-bottom: 21px;
+}
+
+.main .chatbox>.footer>.editor .message_editor .note-btn i
+{
+padding: 3px 5px;
+}
+
+.main .chatbox>.footer>.grid_list>div>.results>div>ul>li
+{
+max-width: 33.33%;
+flex: 33.33%;
+}
+
+.main .chatbox>.footer>.grid_list
+{
+max-height: 200px;
+}
+}
+
+@media screen and (max-width:430px)
+{
+    
+.main .middle > .content > .statistics .table_list > .item > div
+{
+min-width: 100%;
+margin-bottom: 2px;
+}
+
+.main .middle > .content > .statistics .table_list > .item
+{
+flex-wrap: wrap;
+text-align: center;
+}
+
+.main .middle > .content > .statistics .table_list > .item > .image
+{
+margin-right: 0px;
+margin-bottom: 10px;
+}
+
+.main .middle > .content > .statistics .table_list > .item > div.button
+{
+margin-top: 10px;
+}
+}
+
+@media only screen and (max-width: 1290px) and (min-width: 1024px)
+{
+.boxed_layout .main > .window
+{
+padding: 10px;
+}
+}
+
+@media only screen and (max-width: 1200px)
+{
+
+.rtl_language .main .side_navigation
+{
+right: 0px!important;
+left: auto!important;
+margin-left: 0px!important;
+margin-right: 0px!important;
+}
+
+.main .side_navigation
+{
+position: absolute;
+margin-left: 0px;
+left: 0px;
+}
+
+.rtl_language .main .chat_page_container.show_navigation
+{
+padding-right: 0px !important;
+}
+
+.main .chat_page_container.show_navigation
+{
+padding-left: 0px;
+}
+}
+
+@media screen and (max-width: 770.98px)
+{
+.main .chatbox>.footer>.editor .message_editor .note-btn
+{
+margin-right: 2px;
+}
+}
+
+@media screen and (max-width: 500.98px)
+{
+.main .chatbox>.footer>.editor .send_message_button
+{
+position: absolute;
+right: 5px;
+margin-top: 67px;
+}
+
+.note-editor.note-frame .note-editing-area
+{
+margin-right: 64px;
+}
+}

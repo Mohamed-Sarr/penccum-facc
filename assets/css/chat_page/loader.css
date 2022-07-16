@@ -1,0 +1,515 @@
+.main .loader
+{
+position: absolute;
+height: 100%;
+top: 0px;
+display: none;
+width: 100%;
+overflow: hidden;
+z-index: 2;
+}
+
+.main .loader > ul
+{
+background: white;
+list-style: none;
+padding: 0px;
+margin: 0px;
+height: 100%;
+overflow: hidden;
+}
+
+.main .loader > ul > li
+{
+display: block;
+margin-bottom: 0px;
+width: 100%;
+cursor: pointer;
+border-bottom: 1px solid transparent;
+border-top: 1px solid transparent;
+transition: 0.5s;
+padding: 10px 12px;
+}
+
+.main .loader > ul > li > div
+{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.main .loader > ul > li > div > .left
+{
+text-align: center;
+padding: 0px;
+width: 43px;
+margin-right: 12px;
+display: inline-block;
+height: 43px;
+background-size: cover;
+border-radius: 5px;
+}
+
+.main .loader > ul > li > div > .left > .img
+{
+width: 43px;
+height: 43px;
+background: linear-gradient(100deg, #eceff1 30%, #f6f7f8 50%, #eceff1 70%);
+background-size: 400%;
+animation: loaderbg 1.2s ease-in-out infinite;
+display: inline-block;
+border-radius: 5px;
+}
+
+.main .loader > ul > li > div > .center
+{
+display: block;
+font-size: 13px;
+color: #696767;
+font-weight: 600;
+width: 100%;
+}
+
+.main .loader > ul > li > div > .center > .title
+{
+width: 35%;
+height: 8px;
+background: linear-gradient(100deg, #eceff1 30%, #f6f7f8 50%, #eceff1 70%);
+background-size: 400%;
+display: inline-block;
+left: 0px;
+animation: loaderbg 1.2s ease-in-out infinite;
+margin-bottom: 2px;
+border-radius: 30px;
+}
+
+.main .loader > ul > li > div > .center > .subtitle
+{
+width: 56%;
+height: 7px;
+background: linear-gradient(100deg, #eceff1 30%, #f6f7f8 50%, #eceff1 70%);
+background-size: 400%;
+display: block;
+left: 0px;
+animation: loaderbg 1.2s ease-in-out infinite;
+border-radius: 30px;
+}
+
+.main .loader > ul > li > div > .right
+{
+display: inline-block;
+color: #a4a5a7;
+font-size: 11px;
+text-align: right;
+right: 0px;
+margin-left: auto;
+}
+
+.main .loader.conversation_loader > ul > li > div > .center > .subtitle
+{
+width: 37%;
+height: 36px;
+border-radius: 8px;
+}
+
+.main .loader.conversation_loader > ul > li:nth-child(even) > div > .center > .subtitle
+{
+width: 60%;
+height: 36px;
+border-radius: 8px;
+}
+
+.main .loader.conversation_loader > ul > li > div > .center > .title
+{
+height: 10px;
+width: 16%;
+border-radius: 5px;
+}
+
+.main .loader.conversation_loader > ul > li:nth-child(even) > div > .center > .title
+{
+width: 19%;
+}
+
+.main .info_panel > .loader
+{
+position: absolute;
+height: 100%;
+top: 0px;
+display: none;
+width: 100%;
+overflow: hidden;
+z-index: 10;
+left: 0px;
+background: white;
+background: var(--info-panel-primary-bg-color);
+}
+
+.main .info_panel > .loader > div
+{
+height: 100%;
+}
+
+.main .info_panel > .loader > div > .cover_pic
+{
+background: linear-gradient(100deg, var(--info-panel-secondary-bg-color) 30%, var(--info-panel-primary-bg-color) 50%, var(--info-panel-secondary-bg-color) 70%);
+background-size: 400%;
+animation: loaderbg 1.2s ease-in-out infinite;
+transition: 0.5s;
+display: block;
+height: 170px;
+}
+
+.main .info_panel > .loader > div > .image
+{
+display: block;
+text-align: center;
+margin-top: -35px;
+}
+
+.main .info_panel > .loader > div > .image > span
+{
+width: 70px;
+height: 70px;
+border-radius: 100%;
+border: 4px solid var(--info-panel-primary-bg-color);
+box-shadow: 0px 0px 3px #a9a6a6;
+transition: 0.3s;
+display: inline-block;
+background: linear-gradient(100deg, var(--info-panel-secondary-bg-color) 30%, var(--info-panel-primary-bg-color) 50%, var(--info-panel-secondary-bg-color) 70%);
+background-size: 400%;
+animation: loaderbg 1.2s ease-in-out infinite;
+}
+
+.dark_mode .main .info_panel > .loader > div > .image > span
+{
+box-shadow: 0px 0px 0px;
+}
+
+.main .info_panel > .loader > div > .heading > span
+{
+width: 35%;
+height: 12px;
+background: linear-gradient(100deg, var(--info-panel-secondary-bg-color) 30%, var(--info-panel-primary-bg-color) 50%, var(--info-panel-secondary-bg-color) 70%);
+background-size: 400%;
+display: inline-block;
+left: 0px;
+animation: loaderbg 1.2s ease-in-out infinite;
+margin-bottom: 2px;
+border-radius: 30px;
+}
+
+.main .info_panel > .loader > div > .subheading
+{
+display: block;
+text-align: center;
+margin-top: 0px;
+}
+
+.main .info_panel > .loader > div > .heading
+{
+display: block;
+text-align: center;
+margin-top: 7px;
+}
+
+.main .info_panel > .loader > div > .subheading > span
+{
+width: 66%;
+height: 13px;
+background: linear-gradient(100deg, var(--info-panel-secondary-bg-color) 30%, var(--info-panel-primary-bg-color) 50%, var(--info-panel-secondary-bg-color) 70%);
+display: inline-block;
+left: 0px;
+animation: loaderbg 1.2s ease-in-out infinite;
+border-radius: 30px;
+}
+
+.main .info_panel > .loader > div > .subheading > span:nth-child(even)
+{
+width: 75%;
+}
+
+.main .info_panel > .loader > div > .icons
+{
+display: flex;
+text-align: left;
+margin-top: 10px;
+border-top: 1px solid var(--info-panel-primary-border-color);
+padding: 0px 15px;
+padding-top: 12px;
+border-bottom: 1px solid var(--info-panel-primary-border-color);
+padding-bottom: 12px;
+}
+
+.main .chatbox .loader > ul
+{
+background: var(--chat-window-secondary-bg-color);
+}
+
+.main .chatbox .loader > ul > li > div > .left > .img
+{
+background: linear-gradient(100deg, var(--chat-window-tertiary-bg-color) 30%, var(--chat-window-secondary-bg-color) 50%, var(--chat-window-tertiary-bg-color) 70%);
+background-size: 400%;
+animation: loaderbg 1.2s ease-in-out infinite;
+}
+
+.main .chatbox .loader > ul > li > div > .center > .title,.main .chatbox .loader > ul > li > div > .center > .subtitle
+{
+background: linear-gradient(100deg, var(--chat-window-tertiary-bg-color) 30%, var(--chat-window-secondary-bg-color) 50%, var(--chat-window-tertiary-bg-color) 70%);
+background-size: 400%;
+animation: loaderbg 1.2s ease-in-out infinite;
+}
+
+.main .info_panel > .loader > div > .icons > span
+{
+width: 40px;
+height: 40px;
+border-radius: 5px;
+transition: 0.3s;
+margin-right: 7px;
+display: block;
+background: linear-gradient(100deg, var(--info-panel-secondary-bg-color) 30%, var(--info-panel-primary-bg-color) 50%, var(--info-panel-secondary-bg-color) 70%);
+background-size: 400%;
+animation: loaderbg 1.2s ease-in-out infinite;
+}
+
+.main .info_panel > .loader > div > .contents
+{
+display: block;
+padding: 0px;
+}
+
+.main .info_panel > .loader > div > .contents > span
+{
+border-bottom: 1px solid var(--info-panel-primary-border-color);
+margin-bottom: 18px;
+display: block;
+padding: 6px 15px;
+}
+
+.main .info_panel > .loader > div > .contents > span > .title
+{
+}
+
+.main .info_panel > .loader > div > .contents > span > .value
+{
+width: 66%;
+}
+
+.main .info_panel > .loader > div > .contents > span > span
+{
+height: 13px;
+\: linear-gradient(100deg , #eceff1 30%, #f6f7f8 50%, #eceff1 70%);
+background: linear-gradient(100deg, var(--info-panel-secondary-bg-color) 30%, var(--info-panel-primary-bg-color) 50%, var(--info-panel-secondary-bg-color) 70%);
+background-size: 400%;
+display: inline-block;
+left: 0px;
+animation: loaderbg 1.2s ease-in-out infinite;
+border-radius: 30px;
+width: 50%;
+}
+
+.main .middle > .content > .statistics > .loader > div
+{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100%;
+}
+
+.main .middle > .content > .statistics > .loader
+{
+display: block;
+z-index: 5;
+background: var(--statistics-primary-bg-color);
+}
+
+.main .middle > .content > .statistics > .loader > div > .loading > .grid
+{
+display: inline-block;
+position: relative;
+width: 80px;
+height: 80px;
+}
+
+.main .middle > .content > .statistics > .loader > div > .loading > .grid div
+{
+position: absolute;
+width: 16px;
+height: 16px;
+border-radius: 50%;
+background: #99adb7;
+animation: loader-grid 1.2s linear infinite;
+}
+
+.main .middle > .content > .statistics > .loader > div > .loading > .grid div:nth-child(1)
+{
+top: 8px;
+left: 8px;
+animation-delay: 0s;
+}
+
+.main .middle > .content > .statistics > .loader > div > .loading > .grid div:nth-child(2)
+{
+top: 8px;
+left: 32px;
+animation-delay: -0.4s;
+}
+
+.main .middle > .content > .statistics > .loader > div > .loading > .grid div:nth-child(3)
+{
+top: 8px;
+left: 56px;
+animation-delay: -0.8s;
+}
+
+.main .middle > .content > .statistics > .loader > div > .loading > .grid div:nth-child(4)
+{
+top: 32px;
+left: 8px;
+animation-delay: -0.4s;
+}
+
+.main .middle > .content > .statistics > .loader > div > .loading > .grid div:nth-child(5)
+{
+top: 32px;
+left: 32px;
+animation-delay: -0.8s;
+}
+
+.main .middle > .content > .statistics > .loader > div > .loading > .grid div:nth-child(6)
+{
+top: 32px;
+left: 56px;
+animation-delay: -1.2s;
+}
+
+.main .middle > .content > .statistics > .loader > div > .loading > .grid div:nth-child(7)
+{
+top: 56px;
+left: 8px;
+animation-delay: -0.8s;
+}
+
+.main .middle > .content > .statistics > .loader > div > .loading > .grid div:nth-child(8)
+{
+top: 56px;
+left: 32px;
+animation-delay: -1.2s;
+}
+
+.main .middle > .content > .statistics > .loader > div > .loading > .grid div:nth-child(9)
+{
+top: 56px;
+left: 56px;
+animation-delay: -1.6s;
+}
+
+.main .aside .loader > ul
+{
+background: var(--left-side-content-primary-bg-color);
+}
+
+.main .aside .loader > ul > li > div > .left > .img
+{
+background: linear-gradient(100deg, var(--left-side-content-secondary-bg-color) 30%, var(--left-side-content-primary-bg-color) 50%, var(--left-side-content-secondary-bg-color) 70%);
+background-size: 400%;
+animation: loaderbg 1.2s ease-in-out infinite;
+}
+
+.main .aside .loader > ul > li > div > .center > .title
+{
+background: linear-gradient(100deg, var(--left-side-content-secondary-bg-color) 30%, var(--left-side-content-primary-bg-color) 50%, var(--left-side-content-secondary-bg-color) 70%);
+background-size: 400%;
+animation: loaderbg 1.2s ease-in-out infinite;
+}
+
+.main .aside .loader > ul > li > div > .center > .subtitle
+{
+background: linear-gradient(100deg, var(--left-side-content-secondary-bg-color) 30%, var(--left-side-content-primary-bg-color) 50%, var(--left-side-content-secondary-bg-color) 70%);
+background-size: 400%;
+animation: loaderbg 1.2s ease-in-out infinite;
+}
+
+.audio_player_box > .playlist > div > ul > li > .audio_player_loading
+{
+display: flex;
+align-items: center;
+min-width: 100%;
+width: 100%;
+}
+
+.audio_player_box > .playlist > div > ul > li > .audio_player_loading > span
+{
+display: block;
+width: 100%;
+}
+
+.audio_player_box > .playlist > div > ul > li > .audio_player_loading > span.image
+{
+min-width: 43px;
+min-height: 43px;
+height: 43px;
+width: 43px;
+background: linear-gradient(100deg, var(--left-side-content-secondary-bg-color) 30%, var(--left-side-content-primary-bg-color) 50%, var(--left-side-content-secondary-bg-color) 70%);
+background-size: 400%;
+animation: loaderbg 1.2s ease-in-out infinite;
+border-radius: 5px;
+}
+
+.audio_player_box > .playlist > div > ul > li > .audio_player_loading > span.content
+{
+margin-left: 10px;
+}
+
+.audio_player_box > .playlist > div > ul > li > .audio_player_loading > span.content > span
+{
+width: 35%;
+height: 8px;
+background: linear-gradient(100deg, var(--left-side-content-secondary-bg-color) 30%, var(--left-side-content-primary-bg-color) 50%, var(--left-side-content-secondary-bg-color) 70%);
+background-size: 400%;
+display: block;
+left: 0px;
+animation: loaderbg 1.2s ease-in-out infinite;
+margin-bottom: 2px;
+border-radius: 30px;
+}
+
+.audio_player_box > .playlist > div > ul > li > .audio_player_loading > span.content > span.title
+{
+width: 36%;
+height: 8px;
+margin-bottom: 7px;
+}
+
+.audio_player_box > .playlist > div > ul > li > .audio_player_loading > span.content > span.description
+{
+width: 66%;
+height: 8px;
+}
+
+@keyframes loader-grid
+{
+0%, 100%
+{
+opacity: 1;
+}
+
+50%
+{
+opacity: 0.5;
+}
+}
+
+@keyframes loaderbg
+{
+0%
+{
+background-position: 100% 50%;
+}
+
+100%
+{
+background-position: 0 50%;
+}
+}

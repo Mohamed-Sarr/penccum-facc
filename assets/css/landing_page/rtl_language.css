@@ -1,0 +1,29 @@
+.rtl_language.landing_page .navigation ul.navbar-nav
+{
+margin-right: auto;
+margin-left: 0px;
+}
+
+.rtl_language .hero_section > .introduction
+{
+direction: ltr;
+}
+
+.rtl_language .groups_list .groups .card > .card-body > .card-title
+{
+text-align: right;
+}
+
+.rtl_language .groups_list .groups .card > .card-body > .card-text
+{
+text-align: right;
+}
+
+.rtl_language .frequently_asked_questions .questions > .item > .question:after {
+    margin-left: 0px;
+    margin-right: auto;
+}
+
+.rtl_language .frequently_asked_questions .questions > .item.open > .answer {
+    text-align: right;
+}

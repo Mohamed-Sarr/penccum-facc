@@ -1,0 +1,236 @@
+.popup-dialog-box
+{
+position: fixed;
+bottom: 0px;
+z-index: 999;
+left: 0px;
+width: 100%;
+height: 100%;
+text-align: center;
+display: none;
+background-color: #ffffff59;
+background-repeat: no-repeat;
+background-position: center;
+background-size: 80px;
+}
+
+.popup-dialog-box > div
+{
+display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-align: center;
+-webkit-align-items: center;
+-ms-flex-align: center;
+align-items: center;
+min-height: 100%;
+-webkit-box-pack: center;
+-webkit-justify-content: center;
+-ms-flex-pack: center;
+justify-content: center;
+width: 100%;
+height: 100%;
+}
+
+.popup-dialog-box > div > .box
+{
+display: inline-block;
+text-align: right;
+color: white;
+max-width: 325px;
+min-width: 299px;
+max-height: 98%;
+overflow: hidden;
+background: #ffffff;
+border-radius: 5px;
+box-shadow: 0px 0px 4px #b2b2b2;
+}
+
+.popup-dialog-box > div > .box > .header_image
+{
+min-height: 170px;
+max-height: 170px;
+height: 170px;
+position: relative;
+width: 100%;
+z-index: 2;
+width: 100%;
+overflow: hidden;
+}
+
+.popup-dialog-box > div > .box > .header_image > .image
+{
+background: linear-gradient(to right,#E91E63,#9C27B0);
+display: block;
+height: 100%;
+overflow: hidden;
+}
+
+.popup-dialog-box > div > .box > .header_image > .image > img
+{
+object-fit: cover;
+width: 100%;
+height: 100%;
+max-height: 170px;
+}
+
+.popup-dialog-box > div > .box > .image
+{
+display: block;
+text-align: center;
+margin-top: -40px;
+position: relative;
+z-index: 5;
+}
+
+.popup-dialog-box > div > .box > .image > img
+{
+width: 80px;
+height: 80px;
+border-radius: 100%;
+border: 4px solid #fff;
+box-shadow: 0px 0px 3px #a9a6a6;
+transition: 0.3s;
+}
+
+.popup-dialog-box > div > .box > .content
+{
+color: #646262;
+text-align: center;
+padding: 7px 17px;
+padding-top: 15px;
+}
+
+.popup-dialog-box > div > .box > .content > .text-content
+{
+display: block;
+font-size: 15px;
+margin-top: 3px;
+max-height: 170px;
+overflow: hidden;
+overflow-y: auto;
+line-height: initial;
+white-space: break-spaces;
+}
+
+.popup-dialog-box > div > .box > .content > .buttons
+{
+display: block;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+
+.popup-dialog-box > div > .box > .content > .buttons > .submit
+{
+color: white;
+background: #E91E63;
+border: 1px solid #E91E63;
+}
+
+.popup-dialog-box > div > .box > .content > .buttons > .cancel
+{
+margin-right: 10px;
+color: #E91E63;
+border: 1px solid #E91E63;
+background: white;
+}
+
+.popup-dialog-box > div > .box > .content > .heading
+{
+display: block;
+font-weight: 600;
+color: #5d5d5d;
+font-size: 17px;
+}
+
+.popup-dialog-box > div > .box > .content > .buttons > span
+{
+display: inline-block;
+border-radius: 30px;
+font-size: 15px;
+}
+
+.popup-dialog-box > div > .box > .content > .buttons > span > span
+{
+display: block;
+padding: 6px 15px;
+cursor: pointer;
+}
+
+.popup-dialog-box > div > .box > .content > .buttons > span > span.processing
+{
+background-image: repeating-linear-gradient( -45deg, transparent, transparent 1rem, #ffffff78 1rem, #ffffff78 2rem );
+background-size: 200% 200%;
+cursor: not-allowed;
+animation: barberpole 2s linear infinite;
+}
+
+.popup-dialog-box.loading > div > .box > .header_image > .image
+{
+background: linear-gradient( 100deg , #eceff1 30%, #f6f7f8 50%, #eceff1 70%);
+background-size: 400%;
+animation: loaderbg 1.2s ease-in-out infinite;
+}
+
+.popup-dialog-box.loading > div > .box > .header_image > .image > img
+{
+display: none;
+}
+
+.popup-dialog-box.loading > div > .box > .image > img
+{
+background: linear-gradient( 100deg , #eceff1 30%, #f6f7f8 50%, #eceff1 70%);
+background-size: 400%;
+animation: loaderbg 1.2s ease-in-out infinite;
+}
+
+.popup-dialog-box.loading > div > .box > .content > .heading
+{
+color: transparent;
+background: linear-gradient( 100deg , #eceff1 30%, #f6f7f8 50%, #eceff1 70%);
+background-size: 400%;
+animation: loaderbg 1.2s ease-in-out infinite;
+height: 12px;
+border-radius: 5px;
+}
+
+.popup-dialog-box.loading > div > .box > .content > .text-content:before
+{
+content: "";
+background: linear-gradient( 100deg , #eceff1 30%, #f6f7f8 50%, #eceff1 70%);
+background-size: 400%;
+animation: loaderbg 1.2s ease-in-out infinite;
+border-radius: 5px;
+margin-top: 5px;
+height: 11px;
+display: inline-block;
+width: 85%;
+}
+
+.popup-dialog-box.loading > div > .box > .content > .text-content:after
+{
+content: "";
+background: linear-gradient( 100deg , #eceff1 30%, #f6f7f8 50%, #eceff1 70%);
+background-size: 400%;
+animation: loaderbg 1.2s ease-in-out infinite;
+border-radius: 5px;
+margin-top: 3px;
+height: 12px;
+display: block;
+}
+
+.popup-dialog-box.loading > div > .box > .content > .text-content
+{
+text-align: center;
+}
+
+.popup-dialog-box.loading > div > .box > .content > .buttons
+{
+display: none;
+}
+
+.popup-dialog-box.loading > div > .box > .content
+{
+margin-bottom: 15px;
+}

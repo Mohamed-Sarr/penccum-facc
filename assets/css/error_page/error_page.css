@@ -1,0 +1,119 @@
+body
+{
+background: url('../../files/backgrounds/error_page_bg.jpg') no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+.error_page_container .expression
+{
+}
+
+.error_page_container .expression > span
+{
+font-size: 150px;
+font-size: 15vw;
+margin: 0px;
+font-weight: 900;
+display: block;
+filter: drop-shadow(0px 0px 6px #7777);
+animation-name: MOVE-BG;
+animation-duration: 10s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+
+.not_found.error_page_container .expression > span
+{
+background: url('../../files/backgrounds/not_found_error_expression_text_bg.jpg');
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-position: left;
+background-size: 445px;
+}
+
+.banned.error_page_container .expression > span
+{
+background: url('../../files/backgrounds/banned_error_expression_text_bg.jpg');
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-position: left;
+background-size: 445px;
+}
+
+.offline.error_page_container .expression > span
+{
+background: url('../../files/backgrounds/offline_error_expression_text_bg.jpg');
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-position: left;
+background-size: 445px;
+}
+
+.error_page_container .title
+{
+color: #5d5b60;
+font-size: 24px;
+font-weight: 700;
+margin-top: 0;
+}
+
+.error_page_container .description
+{
+color: #333;
+font-size: 16px;
+font-weight: 400;
+margin-bottom: 20px;
+margin-top: 0px;
+}
+
+.error_page_container .description > p
+{
+display: inline-block;
+max-width: 35em;
+font-weight: 600;
+color: #939393;
+}
+
+.error_page_container .button
+{
+}
+
+.error_page_container .button > a
+{
+font-size: 14px;
+text-decoration: none;
+background: #5d5b60;
+display: inline-block;
+padding: 15px 30px;
+border-radius: 40px;
+color: #fff;
+transition: 0.4s;
+font-weight: 700;
+}
+
+.error_page_container .button > a:hover
+{
+background: #f9c113;
+color: #565358;
+}
+
+.offline.error_page_container .button > a:hover
+{
+background: #bb0301;
+color: #fff;
+}
+
+@keyframes MOVE-BG
+{
+from
+{
+background-position: 80px 0px;
+}
+
+to
+{
+background-position: 0px 80px;
+}
+}
